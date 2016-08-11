@@ -25,6 +25,7 @@ RUN zypper --non-interactive --no-gpg-checks refresh && \
 
 RUN zypper --non-interactive --no-gpg-checks install \
     ant \
+    ant-junit \
     boost-devel \
     cmake \
     git \

@@ -33,6 +33,7 @@ RUN zypper --non-interactive --no-gpg-checks install \
     gcc-c++ \
     iproute2 \
     make \
+    python \
     opencv-devel \
     psmisc \
     libqt4-devel \

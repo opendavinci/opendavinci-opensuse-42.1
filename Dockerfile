@@ -41,3 +41,5 @@ RUN zypper --non-interactive --no-gpg-checks install \
     qwt-devel \
     wget
 
+RUN zypper --non-interactive --no-gpg-checks install ffmpeg
+

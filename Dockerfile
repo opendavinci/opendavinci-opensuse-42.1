@@ -43,3 +43,4 @@ RUN zypper --non-interactive --no-gpg-checks install \
 
 RUN zypper --non-interactive --no-gpg-checks install ffmpeg
 
+RUN zypper --non-interactive --no-gpg-checks install gdbserver
